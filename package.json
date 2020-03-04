@@ -1,0 +1,28 @@
+{
+  "name": "requite-svelte",
+  "version": "1.0.0-alpha.0",
+  "description": "Dynamic selector for Svelte",
+  "author": "vacom",
+  "license": "MIT",
+  "repository": "vacom/requite-svelte",
+  "svelte": "src/index.js",
+  "module": "dist/index.mjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^6.0.0",
+    "rollup": "^1.20.0",
+    "rollup-plugin-svelte": "^5.0.0",
+    "svelte": "^3.0.0"
+  },
+  "keywords": [
+    "svelte"
+  ],
+  "files": [
+    "src",
+    "dist"
+  ]
+}
